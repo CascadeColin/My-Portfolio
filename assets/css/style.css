@@ -6,3 +6,31 @@
 <!-- 5) webpage is responsive to phones, tablets, and desktop (media queries, etc) -->
 <!-- 6) Resembles the mockup found in /images -->
 <!-- 7) Write a README --> */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: pink;
+}
+
+nav a {
+    margin: 10px;
+}
+
+/* .header-nav {
+    background-color: blue;
+} */
