@@ -41,8 +41,43 @@ nav a {
   padding: 1rem;
 }
 
-.about-me {
-  display: flex;
-  flex-direction: row;
-  background-color: violet;
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+  }
+
+article {
+    display: flex;
+    align-self: flex-end;
+    width: 80%;
 }
+  
+ 
+
+ /* .aboutMe {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  background-color: violet;
+} */
+
+.abooutMeHeader {
+  display: flex;
+  /* position: relative;
+  top: .5rem;
+  left: 1rem; */
+  text-align: right;
+  padding-right: 1rem;
+  border-right: 3px solid black;
+}
+
+/* .aboutMeContent {
+  display: flex;
+  align-items: flex-end;
+  width:75%;
+  padding-left: 1rem;
+  border-left: 2px solid black;
+  align-items: center;
+  padding: 1rem;
+} */
