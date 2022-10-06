@@ -17,13 +17,13 @@
 
 ## Description
 
-This web app functions as a launching point for creating a portfolio for me to showcase my skills as a web developer.  It contains a standard header with nav links, an image of me at my best (in the mountains!), along with some associated text and second contact me link.  There are 3 sections following the background image.  The first is an about me detailing some information about my professional and private life.  The second is a link to previously developed web apps, with an emphasis on the most recent one.  Lastly, there is a contact me section with links to my LinkedIn, email, phone number, and Github.
+This web app functions as a launching point for creating a portfolio for me to showcase my skills as a web developer. It contains a standard header with nav links, an image of me at my best (in the mountains!), along with some associated text and second contact me link. There are 3 sections following the background image. The first is an about me detailing some information about my professional and private life. The second is a link to previously developed web apps, with an emphasis on the most recent one. Lastly, there is a contact me section with links to my LinkedIn, email, phone number, and Github.
 
-This challenge put me through a wide range of mental states.  Everything from extreme frustration getting stuck for an extended period of time on a typo, to immense liberation when I crossed hurdles that I didn't even know were possible.  This project has let me experience what others told me I would experience as a developer.  Overall, it was quite a rewarding and fun experience.
+This challenge put me through a wide range of mental states. Everything from extreme frustration getting stuck for an extended period of time on a typo, to immense liberation when I crossed hurdles that I didn't even know were possible. This project has let me experience what others told me I would experience as a developer. Overall, it was quite a rewarding and fun experience.
 
 ## Technology
 
-Microsoft's VS Code was the programming platform used to create this portfolio page.  GitBash was used for version control for the repository.  A GitHub repository was utilized for version control, as well as provide a streamlined deployment to GitHub Pages.  Images were edited using MS Paint.
+Microsoft's VS Code was the programming platform used to create this portfolio page. GitBash was used for version control for the repository. A GitHub repository was utilized for version control, as well as provide a streamlined deployment to GitHub Pages. Images were edited using MS Paint.
 
 ## License
 
@@ -42,7 +42,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-![HTML](INSERT HTML BADGE)
+![HTML](https://img.shields.io/badge/HTML-59.7%25-blue)
 
-![CSS](INSERT CSS BADGE)
-
+![CSS](https://img.shields.io/badge/HTML-40.3%25-lightgrey)
