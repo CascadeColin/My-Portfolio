@@ -1,10 +1,10 @@
 <!-- ACCEPTANCE CRITERIA -->
-<!--- 1) Name, Recent photo avatar, links to "about me", "portfolio", "contact me" in a navbar (header)   -->
-<!-- 2) Working anchors that link the navbar to items on the webpage -->
-<!-- 3) "First Application" should be larger than the other items and list first (see Figma) -->
-<!-- 4) When user clicks on img of application it takes them to that application (but we don't have any...?) -->
+<!-- DONE 1) Name, Recent photo avatar, links to "about me", "portfolio", "contact me" in a navbar (header)   -->
+<!-- DONE 2) Working anchors that link the navbar to items on the webpage -->
+<!-- DONE 3) "First Application" should be larger than the other items and list first (see Figma) -->
+<!-- DONE 4) When user clicks on img of application it takes them to that application (but we don't have any...?) -->
 <!-- 5) webpage is responsive to phones, tablets, and desktop (media queries, etc) -->
-<!-- 6) Resembles the mockup found in /images -->
+<!-- DONE 6) Resembles the mockup found in /images -->
 <!-- 7) Write a README -->
 
 <!DOCTYPE html>
@@ -23,22 +23,29 @@
       <div id="header">
         <h2 id="headerFloatLeft">Colin Marshall's Portfolio</h2>
         <nav>
-          <a href="#">About Me</a>
-          <a href="#">My Work</a>
-          <a href="#">Contact Me</a>
+          <a href="#about-me">About Me</a>
+          <a href="#my-work">My Work</a>
+          <a href="#contact-me">Contact Me</a>
         </nav>
       </div>
     </header>
 
     <!-- ADD HREF CONTENT WHEN IT IS BUILT -->
 
-    <!-- INPUT header img and "cool subtitle" here -->
-    <!-- ////////////////////////////////////// -->
-    <!-- INPUT header img and "cool subtitle" here -->
+    <div class="bgImage">
+      <div class="bgText">
+        <h2>I am Colin Marshall</h2>
+        <h2>and I am a full-stack web developer</h2>
+        <h3>
+          scroll for more info, or click here to
+          <a href="#contact-me">contact me</a>!
+        </h3>
+      </div>
+    </div>
 
     <div class="contentPadding">
       <!-- "About Me" -->
-      <section>
+      <section id="about-me">
         <aside>
           <h2>About<br />Me</h2>
         </aside>
@@ -55,85 +62,65 @@
         </article>
       </section>
       <!-- "My Work" -->
-      <section>
+      <section id="my-work">
         <aside>
           <h2>My<br />Work</h2>
         </aside>
         <div id="imageColumn">
-          <div>
-            <a href="https://via.placeholder.com/100"
-              ><img
-                src="https://via.placeholder.com/100"
-                alt="New projects will go here!"
-              />
-            </a>
-            <!-- <a href="https://cascadecolin.github.io/Week1Refactoring/">
-            <img
-              src="./assets/images/Horiseon_Colin.png"
-              alt="My First Project"
-            />
-          </a> -->
-          </div>
-          <!-- add hw1 screenshot -->
-          <!-- image container -->
-          <nav>
-            <!-- <div>
-            <a href="https://via.placeholder.com/100"
-            ><img
-              src="https://via.placeholder.com/100"
-              alt="New projects will go here!"
-            />
-          </a>
+          <div id="bigProject">
             <a href="https://cascadecolin.github.io/Week1Refactoring/">
               <img
                 src="./assets/images/Horiseon_Colin.png"
                 alt="My First Project"
               />
             </a>
-          </div> -->
-            <a href="https://via.placeholder.com/100"
+          </div>
+          <!-- add hw1 screenshot -->
+          <!-- image container -->
+          <div id="smallProject">
+            <a href="#"
               ><img
-                src="https://via.placeholder.com/100"
+                src="./assets/images/futureprojects.png"
                 alt="New projects will go here!"
               />
             </a>
-            <a href="https://via.placeholder.com/100"
+            <a href="#"
               ><img
-                src="https://via.placeholder.com/100"
+                src="./assets/images/futureprojects.png"
                 alt="New projects will go here!"
               />
             </a>
-            <a href="https://via.placeholder.com/100"
+
+            <a href="#"
               ><img
-                src="https://via.placeholder.com/100"
+                src="./assets/images/futureprojects.png"
                 alt="New projects will go here!"
               />
             </a>
-            <a href="https://via.placeholder.com/100"
+            <a href="#"
               ><img
-                src="https://via.placeholder.com/100"
+                src="./assets/images/futureprojects.png"
                 alt="New projects will go here!"
               />
             </a>
-          </nav>
+          </div>
         </div>
       </section>
       <!-- "Contact Me" -->
-      <section>
+      <section id="contact-me">
         <aside>
           <h2>Contact<br />Me</h2>
         </aside>
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          officiis id magnam tempora dolor libero dicta doloribus eum beatae
-          obcaecati vero tenetur quas laboriosam debitis praesentium, cupiditate
-          distinctio vitae. Ratione?<br /><br />
-
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          officiis id magnam tempora dolor libero dicta doloribus eum beatae
-          obcaecati vero tenetur quas laboriosam debitis praesentium, cupiditate
-          distinctio vitae. Ratione?
-        </article>
+        <div>
+          <ul>
+            <a href="https://github.com/CascadeColin">Github</a>
+            <a href="https://www.linkedin.com/in/colin-marshall-unlv/"
+              >LinkedIn</a
+            >
+            <a href="mailto: colin.marshall94@gmail.com">Email Me</a>
+            <a href="tel:702-506-5851">Call Me</a>
+          </ul>
+        </div>
       </section>
     </div>
   </body>
