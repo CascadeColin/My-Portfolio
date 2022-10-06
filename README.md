@@ -4,7 +4,9 @@
 
 ### The goal of this project
 
--stuff and things
+- Create a Portfolio web app to showcase my new skills
+- Incorporate HTML and CSS together to create a web app
+- Build a web app from scratch for the first time
 
 ## Table of Contents
 
@@ -15,9 +17,9 @@
 
 ## Description
 
-lorem ipsum
+This web app functions as a launching point for creating a portfolio for me to showcase my skills as a web developer.  It contains a standard header with nav links, an image of me at my best (in the mountains!), along with some associated text and second contact me link.  There are 3 sections following the background image.  The first is an about me detailing some information about my professional and private life.  The second is a link to previously developed web apps, with an emphasis on the most recent one.  Lastly, there is a contact me section with links to my LinkedIn, email, phone number, and Github.
 
-more lorem ipsum
+This challenge put me through a wide range of mental states.  Everything from extreme frustration getting stuck for an extended period of time on a typo, to immense liberation when I crossed hurdles that I didn't even know were possible.  This project has let me experience what others told me I would experience as a developer.  Overall, it was quite a rewarding and fun experience.
 
 ## Technology
 
