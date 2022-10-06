@@ -59,13 +59,14 @@ nav a {
 
 section {
   display: flex;
+  flex-direction: row;
   background-color: yellow;
   margin-bottom: 1rem;
 }
 
 section aside {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: flex-end;
   padding-right: 25px;
   text-align: right;
@@ -78,27 +79,61 @@ section aside h2 {
   margin-top: 0px;
 }
 
-#myWorkContainer {
+section nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#imageColumn {
+  display: flex;
+  flex-direction: column;
+}
+/* section nav div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-}
-
-#bigProject a img {
-  display: flex;
-  width: 100%;
-}
-
-/* #smallProject a {
-  display:flex; */
-  /* width: 50%;
+  min-width: 100%;
 } */
 
-#smallProject {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-template-rows: repeat(2, 1fr);
-  width: 100%; */
+/* section nav div a img {
+  display: flex;
+  align-items: center;
+} */
+
+/* #myWorkContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+#myWorkContainer div {
+  border: 1px solid black;
+  width: 100%;
+}
+
+#myWorkContainer a {
+  border: 1px solid black;
+  width: 50%;
+} */
+
+/* #bigProject img {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  height: auto;
+}
+
+#myWorkContainer a {
+  display: flex;
+  flex-direction: row;
+  min-width: 50%;
+} */
