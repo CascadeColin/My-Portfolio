@@ -45,63 +45,60 @@ nav a {
 /* Start of "About Me" section */
 
 .contentPadding {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
+
+/* Styles "About Me", "My Work", and "Contact Me" */
+
+/* Syles "About Me" article */
+#aboutMeRHS {
+  margin-left: 15px;
+}
+
 section {
-    display: flex;
-    align;-items: stretch;
-    background-color: yellow;
-    margin-bottom: 1rem;
-  }
+  display: flex;
+  background-color: yellow;
+  margin-bottom: 1rem;
+}
 
 section aside {
-    display: flex;
-    
-    padding-left: 2rem;
-    padding-right: .25rem;
-    text-align: right;
-    position: relative;
-    bottom: .5rem;
-}
-
-section article {
-    padding-left: 1rem;
-    border-left: 3px solid black;
-    margin:10px;
-}
-
-  
-/* article {
-    display: flex;
-    align-self: flex-end;
-    width: 80%;
-} */
-
- /* .aboutMe {
   display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-  background-color: violet;
-} */
-
-/* .abooutMeHeader {
-  display: flex;
-  position: relative;
-  top: .5rem;
-  left: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 25px;
   text-align: right;
-  padding-right: 1rem;
+  min-width: 15%;
   border-right: 3px solid black;
+}
+
+section aside h2 {
+  margin-right: -20px;
+  margin-top: 0px;
+}
+
+#myWorkContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#bigProject a img {
+  display: flex;
+  width: 100%;
+}
+
+/* #smallProject a {
+  display:flex; */
+  /* width: 50%;
 } */
 
-/* .aboutMeContent {
-  display: flex;
-  align-items: flex-end;
-  width:75%;
-  padding-left: 1rem;
-  border-left: 2px solid black;
-  align-items: center;
-  padding: 1rem;
-} */
+#smallProject {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%; */
+}
