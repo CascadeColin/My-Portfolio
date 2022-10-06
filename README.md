@@ -1,5 +1,5 @@
 # 02 Advanced CSS: Portfolio
-<!-- The rest is copy/paste!  UPDATE EVERY SECTION! -->
+
 ## Overview
 
 ### The goal of this project
