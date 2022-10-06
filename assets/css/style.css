@@ -17,13 +17,14 @@ body {
   flex-direction: column;
 }
 
-div {
+/* div, nav, and nav a style header elements */
+#header {
   display: flex;
   justify-content: space-between;
   background-color: pink;
 }
 
-.floatLeft {
+#headerFloatLeft {
   display: flex;
   align-self: flex-start;
   margin-left: 1rem;
@@ -41,19 +42,42 @@ nav a {
   padding: 1rem;
 }
 
+/* Start of "About Me" section */
+
+.contentPadding {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
 section {
     display: flex;
-    justify-content: space-between;
+    align;-items: stretch;
     background-color: yellow;
+    margin-bottom: 1rem;
   }
 
-article {
+section aside {
+    display: flex;
+    
+    padding-left: 2rem;
+    padding-right: .25rem;
+    text-align: right;
+    position: relative;
+    bottom: .5rem;
+}
+
+section article {
+    padding-left: 1rem;
+    border-left: 3px solid black;
+    margin:10px;
+}
+
+  
+/* article {
     display: flex;
     align-self: flex-end;
     width: 80%;
-}
-  
- 
+} */
 
  /* .aboutMe {
   display: flex;
@@ -62,15 +86,15 @@ article {
   background-color: violet;
 } */
 
-.abooutMeHeader {
+/* .abooutMeHeader {
   display: flex;
-  /* position: relative;
+  position: relative;
   top: .5rem;
-  left: 1rem; */
+  left: 1rem;
   text-align: right;
   padding-right: 1rem;
   border-right: 3px solid black;
-}
+} */
 
 /* .aboutMeContent {
   display: flex;
