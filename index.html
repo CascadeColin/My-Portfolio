@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colin Marshall's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <!-- make profile img, h1 tag, and links inline -->
@@ -40,56 +44,103 @@
         <aside>
           <h2>About<br />Me</h2>
         </aside>
-        <article id="aboutMeRHS">
-          I am a full-stack web developer located in Seattle, WA.  My journey as a developer began in 2022 after rediscovering my love for how computers and technology function.  I previously took two semesters of computer science at Arizona State University in 2008, primarily coding in Java.  Life took me in a different direction, but I eventually found my way back to tech!<br /><br />
+        <p class="container">
+          I am a full-stack web developer located in Seattle, WA. My journey as
+          a developer began in 2022 after rediscovering my love for how
+          computers and technology function. I previously took two semesters of
+          computer science at Arizona State University in 2008, primarily coding
+          in Java. Life took me in a different direction, but I eventually found
+          my way back to tech!<br /><br />
 
-          When I am not in front of a screen, I love to get out into nature.  Seattle provides me with world-class opportunities for me to experience the endless beauty of the wilderness (as well as access to tech-minded people).  I have recently gotten into board games, especially social deduction games, and have an ongoing love for 4x strategy video games.  Currently, most of my gaming time is dedicated to Terra Invicta.  
-        </article>
+          When I am not in front of a screen, I love to get out into nature.
+          Seattle provides me with world-class opportunities for me to
+          experience the endless beauty of the wilderness (as well as access to
+          tech-minded people). I have recently gotten into board games,
+          especially social deduction games, and have an ongoing love for 4x
+          strategy video games. Currently, most of my gaming time is dedicated
+          to Terra Invicta.
+        </p>
       </section>
       <!-- "My Work" -->
       <section id="my-work">
         <aside>
           <h2>My<br />Work</h2>
         </aside>
-        <div id="imageColumn">
-          <div id="bigProject">
-            <a href="https://cascadecolin.github.io/Week1Refactoring/">
-              <img
-                src="./assets/images/Horiseon_Colin.png"
-                alt="My First Project"
-              />
-            </a>
+        <div class="column column">
+          <div class="container mb-2">
+            <div id="imageColumn">
+              <h2 class="center mb-1">
+                WikiMusix is my latest and greatest project.
+              </h2>
+              <p class="center">
+                This website allows users to search their favorite music artists
+                to learn about similar artists. It also provides them with a GIF
+                of those similar artists and a blurb about them. WikiMusix was
+                built in collaboration with <a class="dark-mode-link" href="https://github.com/vlad-kronk">vlad-kronk</a> and <a class="dark-mode-link" href="https://github.com/mtownsend509">mtownsend509</a>.
+              </p>
+              <div id="bigProject">
+                <a href="https://cascadecolin.github.io/WikiMusix/">
+                  <img
+                    src="./assets/images/Dwikimusix.PNG"
+                    alt="Music Search Engine"
+                  />
+                </a>
+              </div>
+              <!-- add hw1 screenshot -->
+              <!-- image container -->
+            </div>
           </div>
-          <!-- add hw1 screenshot -->
-          <!-- image container -->
-          <div id="smallProject">
-            <a href="#"
-              ><img
-                src="./assets/images/futureprojects.png"
-                alt="New projects will go here!"
-              />
-            </a>
-            <a href="#"
-              ><img
-                src="./assets/images/futureprojects.png"
-                alt="New projects will go here!"
-              />
-            </a>
-
-            <a href="#"
-              ><img
-                src="./assets/images/futureprojects.png"
-                alt="New projects will go here!"
-              />
-            </a>
-            <a href="#"
-              ><img
-                src="./assets/images/futureprojects.png"
-                alt="New projects will go here!"
-              />
-            </a>
+          <div class="container">
+            <div class="container column">
+              <h3 class="center">Weather Dashboard</h3>
+              <p class="center">This website utilizes Open Weather Map API to allow users to search for weather in thousands of cities.  All searches are saved in the "Previous Searches" section.  This gives users the ability to search their favorite cities at the touch of a button!</p>
+              <!-- <div id="smallProject"> -->
+              <div class="container-small mb-2">
+                <a href="https://cascadecolin.github.io/Weather-Dashboard/"
+                  ><img
+                    class="w-100"
+                    src="./assets/images/Dweather.png"
+                    alt="Weather Dashboard"
+                  />
+                </a>
+              </div>
+              <h3 class="center">Work Day Scheduler</h3>
+              <p class="center">Struggle with organization at work?  This is the website for you!  Each work block (defined as 1 hour) is color coordinated based upon if it is in the past, present, or future.  Inside each time block, users can enter and save events and tasks for each time block.  This makes it easy to know when you are ahead or behind on your daily work tasks.  It also allows for flexibility as they can be edited and saved at any time.</p>
+              <div class="container-small mb-2">
+                <a href="https://cascadecolin.github.io/Work-Day-Scheduler/"
+                  ><img
+                    class="w-100"
+                    src="./assets/images/Dscheduler.png"
+                    alt="Work Scheduler"
+                  />
+                </a>
+              </div>
+              <h3 class="center">Code Quiz</h3>
+              <p class="center">Want to learn JavaScript?  This website will help you learn some terminology by taking a quiz!  How fast you complete your quiz, as well as your accuracy, will determine your score.  Highscores can be saved on each completion and may be accessed at any time in the upper-left corner of your screen.  Happy coding!</p>
+              <div class="container-small mb-2">
+                <a href="https://cascadecolin.github.io/Code-Quiz/"
+                  ><img
+                    class="w-100"
+                    src="./assets/images/Dcodequiz.png"
+                    alt="JavaScript Code Quiz"
+                  />
+                </a>
+              </div>
+              <h3 class="center">Password Generator</h3>
+              <p class="center">Do you use the same password for every website?  You know you shouldn't... but you probably still do it.  Now, it's easy to STOP doing that with Password Generator!  With the click of a button, you can generate a random and secure password based upon parameters that you will set.</p>
+              <div class="container-small mb-2">
+                <a href="https://cascadecolin.github.io/Password-Generator/"
+                  ><img
+                    class="w-100"
+                    src="./assets/images/Dpassword.png"
+                    alt="Password Generator"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- </div> -->
       </section>
       <!-- "Contact Me" -->
       <section id="contact-me">

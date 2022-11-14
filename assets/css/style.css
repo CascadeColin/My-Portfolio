@@ -1,6 +1,9 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin:0;
+  box-sizing: border-box;
 }
 
 /* I prefer using columns for adapting to mobile */
@@ -9,11 +12,90 @@ body {
   flex-direction: column;
 }
 
+p {
+  font-size: large;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.col-2 {
+  width: 100%;
+  height: auto;
+}
+
+.dark-mode-link {
+  color: white;
+}
+
+/* prevents links changing color */
+/* a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration: none;
+ } */
+
 /* Styling for the header and embedded navbar */
 #header {
   display: flex;
   justify-content: space-between;
-  background-color: #003566;
+  background-color: #343a40;
+  /* background-color: #003566; */
+}
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-small {
+  display: flex;
+  /* flex-direction: column; */
+  width: 80%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+.w-50 {
+  width: 50%;
+  height: auto;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #headerFloatLeft {
@@ -77,11 +159,12 @@ nav a {
 section {
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  /* background-color: yellow; */
   /* margin-bottom: 1rem; */
   padding: 1rem 0 1rem 0;
   color: white;
-  background-color: #003566;
+  background-color: #343a40;
+  /* background-color: #003566; */
 }
 
 section aside {
@@ -95,7 +178,7 @@ section aside {
 }
 
 section aside h2 {
-  margin-right: -20px;
+  /* margin-right: -20px; */
   margin-top: 0px;
 }
 
@@ -108,7 +191,8 @@ section div {
 #imageColumn {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 1rem;
+  /* padding: 0 1rem 0 1rem; */
+  
 }
 
 #bigProject a img {
@@ -139,6 +223,14 @@ section div ul {
 
 section div ul a {
   color: white;
+}
+
+#wiki {
+  font-weight: bolder;
+}
+
+.center {
+  text-align: center;
 }
 
 @media screen and (max-width: 992px) {
