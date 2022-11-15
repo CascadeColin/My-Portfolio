@@ -16,32 +16,32 @@
   <body>
     <header>
       <div id="header">
-        <h2 id="headerFloatLeft">Colin Marshall's Portfolio</h2>
-        <nav>
-          <a href="#about-me">About Me</a>
-          <a href="#my-work">My Work</a>
-          <a href="#contact-me">Contact Me</a>
+        <h2 id="header-name">Colin Marshall's Portfolio</h2>
+        <nav id="nav">
+          <a href="#aboutMe">About Me</a>
+          <a href="#myWork">My Work</a>
+          <a href="#contactMe">Contact Me</a>
         </nav>
       </div>
     </header>
 
     <!-- ADD HREF CONTENT WHEN IT IS BUILT -->
 
-    <div class="bgImage">
-      <div class="bgText">
+    <div id="bg-img">
+      <div id="bg-text">
         <h2>I am Colin Marshall</h2>
         <h2>and I am a full-stack web developer</h2>
         <h3>
           scroll for more info, or click here to
-          <a href="#contact-me">contact me</a>!
+          <a href="#contactMe">contact me</a>!
         </h3>
       </div>
     </div>
 
-    <div class="contentPadding">
+    <div class="content-container">
       <!-- "About Me" -->
-      <section id="about-me">
-        <aside>
+      <section id="aboutMe" class="section">
+        <aside class="left-side">
           <h2>About<br />Me</h2>
         </aside>
         <p class="container">
@@ -62,39 +62,36 @@
         </p>
       </section>
       <!-- "My Work" -->
-      <section id="my-work">
-        <aside>
+      <section id="myWork" class="section">
+        <aside class="left-side">
           <h2>My<br />Work</h2>
         </aside>
-        <div class="column column">
+        <article class="column">
           <div class="container mb-2">
-            <div id="imageColumn">
+            <div class="column">
               <h2 class="center mb-1">
                 WikiMusix is my latest and greatest project.
               </h2>
-              <p class="center">
+              <p class="center mb-1">
                 This website allows users to search their favorite music artists
                 to learn about similar artists. It also provides them with a GIF
                 of those similar artists and a blurb about them. WikiMusix was
                 built in collaboration with <a class="dark-mode-link" href="https://github.com/vlad-kronk">vlad-kronk</a> and <a class="dark-mode-link" href="https://github.com/mtownsend509">mtownsend509</a>.
               </p>
-              <div id="bigProject">
+              <div>
                 <a href="https://cascadecolin.github.io/WikiMusix/">
-                  <img
+                  <img id="big-img"
                     src="./assets/images/Dwikimusix.PNG"
                     alt="Music Search Engine"
                   />
                 </a>
               </div>
-              <!-- add hw1 screenshot -->
-              <!-- image container -->
             </div>
           </div>
           <div class="container">
             <div class="container column">
-              <h3 class="center">Weather Dashboard</h3>
-              <p class="center">This website utilizes Open Weather Map API to allow users to search for weather in thousands of cities.  All searches are saved in the "Previous Searches" section.  This gives users the ability to search their favorite cities at the touch of a button!</p>
-              <!-- <div id="smallProject"> -->
+              <h3 class="center mb-1">Weather Dashboard</h3>
+              <p class="center mb-1">This website utilizes Open Weather Map API to allow users to search for weather in thousands of cities.  All searches are saved in the "Previous Searches" section.  This gives users the ability to search their favorite cities at the touch of a button!</p>
               <div class="container-small mb-2">
                 <a href="https://cascadecolin.github.io/Weather-Dashboard/"
                   ><img
@@ -104,8 +101,8 @@
                   />
                 </a>
               </div>
-              <h3 class="center">Work Day Scheduler</h3>
-              <p class="center">Struggle with organization at work?  This is the website for you!  Each work block (defined as 1 hour) is color coordinated based upon if it is in the past, present, or future.  Inside each time block, users can enter and save events and tasks for each time block.  This makes it easy to know when you are ahead or behind on your daily work tasks.  It also allows for flexibility as they can be edited and saved at any time.</p>
+              <h3 class="center mb-1">Work Day Scheduler</h3>
+              <p class="center mb-1">Struggle with organization at work?  This is the website for you!  Each work block (defined as 1 hour) is color coordinated based upon if it is in the past, present, or future.  Inside each time block, users can enter and save events and tasks for each time block.  This makes it easy to know when you are ahead or behind on your daily work tasks.  It also allows for flexibility as they can be edited and saved at any time.</p>
               <div class="container-small mb-2">
                 <a href="https://cascadecolin.github.io/Work-Day-Scheduler/"
                   ><img
@@ -115,8 +112,8 @@
                   />
                 </a>
               </div>
-              <h3 class="center">Code Quiz</h3>
-              <p class="center">Want to learn JavaScript?  This website will help you learn some terminology by taking a quiz!  How fast you complete your quiz, as well as your accuracy, will determine your score.  Highscores can be saved on each completion and may be accessed at any time in the upper-left corner of your screen.  Happy coding!</p>
+              <h3 class="center mb-1">Code Quiz</h3>
+              <p class="center mb-1">Want to learn JavaScript?  This website will help you learn some terminology by taking a quiz!  How fast you complete your quiz, as well as your accuracy, will determine your score.  Highscores can be saved on each completion and may be accessed at any time in the upper-left corner of your screen.  Happy coding!</p>
               <div class="container-small mb-2">
                 <a href="https://cascadecolin.github.io/Code-Quiz/"
                   ><img
@@ -126,8 +123,8 @@
                   />
                 </a>
               </div>
-              <h3 class="center">Password Generator</h3>
-              <p class="center">Do you use the same password for every website?  You know you shouldn't... but you probably still do it.  Now, it's easy to STOP doing that with Password Generator!  With the click of a button, you can generate a random and secure password based upon parameters that you will set.</p>
+              <h3 class="center mb-1">Password Generator</h3>
+              <p class="center mb-1">Do you use the same password for every website?  You know you shouldn't... but you probably still do it.  Now, it's easy to STOP doing that with Password Generator!  With the click of a button, you can generate a random and secure password based upon parameters that you will set.</p>
               <div class="container-small mb-2">
                 <a href="https://cascadecolin.github.io/Password-Generator/"
                   ><img
@@ -139,22 +136,21 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- </div> -->
+        </article>
       </section>
       <!-- "Contact Me" -->
-      <section id="contact-me">
-        <aside>
+      <section id="contactMe" class="section">
+        <aside class="left-side">
           <h2>Contact<br />Me</h2>
         </aside>
         <div>
           <ul>
-            <a href="https://github.com/CascadeColin">Github</a>
-            <a href="https://www.linkedin.com/in/colin-marshall-unlv/"
+            <a class="dark-mode-link contact-me" href="https://github.com/CascadeColin">Github</a>
+            <a class="dark-mode-link contact-me" href="https://www.linkedin.com/in/colin-marshall-unlv/"
               >LinkedIn</a
             >
-            <a href="mailto: colin.marshall94@gmail.com">Email Me</a>
-            <a href="tel:702-506-5851">Call Me</a>
+            <a class="dark-mode-link contact-me" href="mailto: colin.marshall94@gmail.com">Email Me</a>
+            <a class="dark-mode-link contact-me" href="tel:702-506-5851">Call Me</a>
           </ul>
         </div>
       </section>
